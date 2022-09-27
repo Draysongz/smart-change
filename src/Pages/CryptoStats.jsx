@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 import { Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
+import { json } from 'react-router-dom'
 import './CryptoStats.css'
 function CryptoStats() {
     const [coinPrice, setCoinPrice]= useState(0)
@@ -12,11 +13,7 @@ function CryptoStats() {
         const url = `api.coincap.io/v2/assets?access_key=${access_key}&symbols=BTC,ETH,SOL,ALGO`
         console.log(url);
         fetch(url)
-        .then(res=> res.json())
-        .then(json=>{
-            console.log(json)
-            
-        } )
+        .then(res=> console.log(res.json()))
     })
   return (
     <div>
