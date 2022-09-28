@@ -13,6 +13,7 @@ function CryptoStats() {
         <div className="left">
             <img src={trending} alt="trending" />
         </div>
+        <Slide>
         <div className="column-container">
             <h3>Trending</h3>
             <Row className='rows'>
@@ -24,7 +25,9 @@ function CryptoStats() {
             {response && response.coins.map(coin=> <TrendingCoin key={coin.item.coin_id} coin = {coin.item}/>  )}
             </Slide>
          </div>
+         </Slide>
     </div>
+   
   )
 }
 
