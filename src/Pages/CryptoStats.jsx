@@ -9,11 +9,16 @@ import './CryptoStats.css'
 function CryptoStats() {
  const {response}= useAxios("search/trending")
   return (
-    <div>
+    <div className='stats-container'>
+       
         <div className="left">
-            <img src={trending} alt="trending" />
+        <Slide direction='left'>
+            <img src={trending} alt="trending" width='400' />
+            </Slide>
         </div>
-        <Slide>
+        
+
+        <Slide direction='right' duration='2000'>
         <div className="column-container">
             <h3>Trending</h3>
             <Row className='rows'>
