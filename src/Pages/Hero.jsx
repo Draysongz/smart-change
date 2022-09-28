@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import logo from '../assets/logo.png'
 import mockup from '../assets/mockup.png'
+import { Fade } from "react-awesome-reveal";
 
 const Hero = () => {
 
@@ -47,7 +48,9 @@ const Hero = () => {
             </div>
 
             <div className="right">
+                <Fade duration='2000'>
                 <img className='mockup' src={mockup} alt='mockup' width='900' />
+                </Fade>
             </div>
         </div>
     </div>
