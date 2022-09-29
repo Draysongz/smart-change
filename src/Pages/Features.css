@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.features-container{
+    background: #F2F7F9;
+   height: 85vh;
+   font-family: 'Poppins', sans-serif;
+   
+}
+.mockup-caption{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-weight: 600;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+}
+.check{
+    color: #F9A826;
+}
+.desc{
+    margin-left: 40px;
+    font-weight: 200;
+}
+.first-mockup{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    position: relative;
+    left: 150px;
+    margin-top: -2px;
+}
+.iphone{
+    position: relative;
+    bottom: 450px;
+    right: 20px;
+}
