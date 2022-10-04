@@ -1,36 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 .features-container{
-    background: #F2F7F9;
-   height: 85vh;
-   font-family: 'Poppins', sans-serif;
-   
-}
-.mockup-caption{
-    margin-top: 5%;
-    margin-left: 8%;
-    font-weight: 600;
+    background-color: #f1f1f1;
 }
 .features{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+   padding: 5%;
 }
-.check{
+.sell, .swap, .buy{
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-family: 'Poppins', sans-serif;
+    height: 50vh;
+    padding: 2px;
+    line-height: 30px;
+
+}
+.font{
+    height: 10vh;
     color: #F9A826;
 }
-.desc{
-    margin-left: 40px;
-    font-weight: 200;
+p{
+    font-weight: 300;
 }
-.first-mockup{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    position: relative;
-    left: 150px;
-    margin-top: -2px;
-}
-.iphone{
-    position: relative;
-    bottom: 450px;
-    right: 20px;
+.swap-title, .buy-title, .sell-title{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: xx-large;
+text-align: center;
 }
