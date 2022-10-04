@@ -15,12 +15,12 @@ const Main = () => {
   let interval;
 
   const startTimer = ()=>{
-    const countDownDate= new Date("November 4, 2022").getTime();
+    const countDownDate= new Date("November 4,2022").getTime();
 
     interval= setInterval(()=>{
-      const currentDate= new Date().getTime();
+      const now= new Date().getTime();
 
-    const difference= countDownDate - currentDate
+    const difference= countDownDate - now
 
     const days = Math.floor(difference/(24*60*60*1000))
 
@@ -31,7 +31,7 @@ const Main = () => {
     const seconds = Math.floor(difference%(60*1000)/(1000))
 
     if(difference<0){
-      //stop
+      //stop Timer
 
       clearInterval(interval.current)
     }else{

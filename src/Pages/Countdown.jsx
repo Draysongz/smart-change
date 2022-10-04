@@ -1,6 +1,6 @@
 import React from 'react'
 import './Countdown.css'
-import { useState, useEffect, Fragment } from 'react'
+import { Fragment } from 'react'
 
 const Countdown = ({timerDays, timerHours, timerMinutes, timerSeconds}) => {
    
