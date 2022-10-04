@@ -28,7 +28,7 @@ const Main = () => {
 
     const minutes = Math.floor(difference%(60*60*1000)/(1000*60))
 
-    const seconds = Math.floor(difference%(60*1000)/(1000))
+    const seconds = Math.floor(difference%(60*1000)/1000)
 
     if(difference<0){
       //stop Timer
@@ -47,14 +47,14 @@ const Main = () => {
 
   useEffect(()=>{
     startTimer()
-  })
+  }, [])
 
   return (
     <div>
       <Hero/>
       <CryptoStats/>
       <Features/>
-      <Countdown timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSecoonds={timerSeconds}/>
+      <Countdown timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds}/>
     </div>
   )
 }
