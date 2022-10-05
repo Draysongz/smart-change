@@ -5,6 +5,7 @@ import { faMoneyBill1Wave } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import {faCartShopping} from '@fortawesome/free-solid-svg-icons'
 
+
 const Features = () => {
   return (
     <div className="features-container">

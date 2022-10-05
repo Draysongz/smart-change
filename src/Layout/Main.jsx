@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react'
 import Hero from '../Pages/Hero'
 import { useState } from 'react'
+import './main.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import CryptoStats from '../Pages/CryptoStats'
 import Features from '../Pages/Features'
 import Countdown from '../Pages/Countdown'
+import Faq from '../Pages/Faq'
 
 
 const Main = () => {
@@ -49,12 +52,25 @@ const Main = () => {
     startTimer()
   }, [])
 
+  window.addEventListener('load', ()=>{
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/633d6d4837898912e96cfef6/1gejv5pgj';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+  })
+
   return (
     <div>
       <Hero/>
       <CryptoStats/>
       <Features/>
       <Countdown timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds}/>
+      <Faq/>
     </div>
   )
 }

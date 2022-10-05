@@ -1,0 +1,18 @@
+.chati{
+    color: #F9A826;
+    height: 10vh;
+    padding: 15%;
+    cursor:pointer;
+}
+.chat{
+    width: 7.5%;
+    height: 15vh;
+    border: 1px solid silver;
+    border-radius: 60px;
+    background-color: #efefef;
+    position: sticky;
+    left:89%;
+    top:100%;
+    cursor:pointer;
+
+}

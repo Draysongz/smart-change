@@ -8,7 +8,7 @@ const Countdown = ({timerDays, timerHours, timerMinutes, timerSeconds}) => {
     <Fragment>
         <section className="timer-container">
             <section className="timer">
-
+            <h3>Product Launch in</h3>
                 <div className="clock">
                     <section>
                         <p>{timerDays}</p>

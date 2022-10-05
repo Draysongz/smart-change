@@ -7,6 +7,11 @@
     justify-content: space-evenly;
    padding: 5%;
 }
+.feature-title{
+    text-align: center;
+    font-weight: 400;
+    padding: 1%;
+}
 .sell, .swap, .buy{
     width: 29%;
     display: flex;
