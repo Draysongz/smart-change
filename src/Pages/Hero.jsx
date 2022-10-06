@@ -15,14 +15,14 @@ const Hero = () => {
     }
 
   return (
-    <div className='holder'>
+    <div className='holder' id='home'>
         <nav className="nav-container">
             <img src={logo} alt='crypto smart' width='100'/>
             <ul className="navlist">
                 {Nav.map((nav, index)=>{
                     return(
                         <li className='navs' key={index}>
-                            <a id={nav.id} href={nav.url} onClick={showId}>
+                            <a id={nav.id} href={`#${nav.id}`} onClick={showId}>
                             {nav.title} 
                             </a>
                             </li>

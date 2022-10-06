@@ -7,6 +7,7 @@ import CryptoStats from '../Pages/CryptoStats'
 import Features from '../Pages/Features'
 import Countdown from '../Pages/Countdown'
 import Faq from '../Pages/Faq'
+import Footer from '../Pages/Footer'
 
 
 const Main = () => {
@@ -71,6 +72,7 @@ const Main = () => {
       <Features/>
       <Countdown timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds}/>
       <Faq/>
+      <Footer/>
     </div>
   )
 }
