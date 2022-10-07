@@ -53,7 +53,9 @@ const Main = () => {
     startTimer()
   }, [])
 
-  window.addEventListener('load', ()=>{
+  window.addEventListener('load', showText)
+
+  function showText(){
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -63,7 +65,7 @@ const Main = () => {
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
     })();
-  })
+  }
 
   return (
     <div>
