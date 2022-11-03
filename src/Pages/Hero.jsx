@@ -35,9 +35,6 @@ const Hero = () => {
         <div className="hero">
             <div className="left">
                 <div className="left-text">
-                    <div className="header">
-                        <h6>SIGN UP TODAY</h6>
-                    </div>
                     <div className="paragraph">
                         <p>The World’s <br /> <span className="fast">Fastest Growing</span> <br /> Crypto App</p>
                        

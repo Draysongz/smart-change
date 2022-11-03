@@ -14,7 +14,8 @@
     width: 50%;
 }
 .faq{
-    padding: 1.5%;
+    padding: 1.5rem;
+    text-align: center;
 }
 #acc-header {
     width: 100%;

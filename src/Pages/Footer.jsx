@@ -30,14 +30,14 @@ const Footer = () => {
       <h3>Availability</h3>
     </div>
     <div className="fifth">
-      <h3>Newsletter</h3>
+      {/* <h3>Newsletter</h3>
       <h4>Never miss anything crypto <br /> when you're on the go</h4>
       <div className="email">
       <input type="text" placeholder='Enter you email address' className='email-input' />
       <div className="button">
         <FontAwesomeIcon icon={faArrowAltCircleRight} className='arrow'/>
       </div>
-      </div>
+      </div> */}
       
     </div>
    </div>

@@ -2,13 +2,13 @@
 .footer-container{
     background-color: #f2f7f9;
     height: 36vh;
-    /* background: linear-gradient(270deg,#051817, #0e3839); */
     margin-top: 25%;
     color: white;
     border-radius: 10px;
     display: flex;
     align-items:center ;
     justify-content: space-around;
+    text-align: center;
 }
 .second h3{
     line-height: 34px;
