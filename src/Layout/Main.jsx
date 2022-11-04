@@ -10,6 +10,7 @@ import Faq from '../Pages/Faq'
 import Footer from '../Pages/Footer'
 
 
+
 const Main = () => {
   const [timerDays, setTimerDays]= useState()
   const [timerHours, setTimerHours]= useState()

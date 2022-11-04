@@ -7,6 +7,7 @@ import {faCartShopping} from '@fortawesome/free-solid-svg-icons'
 
 
 const Features = () => {
+  
   return (
     <div className="features-container" id='about'>
       <h1 className="feature-title">Features</h1>

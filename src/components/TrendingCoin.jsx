@@ -2,7 +2,7 @@ import { Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
 import '../Pages/CryptoStats.css'
 const TrendingCoin = ({coin }) => {
-    console.log(coin);
+    
   return (
     <>
     <Row className='rows'>

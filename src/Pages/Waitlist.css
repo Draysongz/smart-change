@@ -1,0 +1,26 @@
+
+.list-container h1{
+    margin-right: 15px;
+    /* text-transform: capitalize; */
+    font-size:large;
+}
+.list-input{
+    width: 24vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: 2px solid #F9A826;
+}
+.input-btn{
+    width: 10vw;
+    height:7vh;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-left:.7rem;
+}
+
+.list-input::placeholder{
+   text-align:left;
+   padding:.3rem;
+   
+}
