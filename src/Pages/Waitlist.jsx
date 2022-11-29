@@ -9,12 +9,12 @@ const Waitlist = () => {
           <h1>Join The Waitlist:</h1>
           <div className="waitlist-input">
             <input type="email"  placeholder='johndoe@gmail.com' id='email' className="list-input" />
-            <button onClick={submit()} className="input-btn">Submit</button>
+            <button className="input-btn">Submit</button>
           </div>
       
         </div>
     </div>
   )
-}
+} 
 
 export default Waitlist
