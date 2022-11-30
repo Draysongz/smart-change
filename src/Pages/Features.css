@@ -42,3 +42,20 @@ font-weight: 400;
 font-size: xx-large;
 text-align: center;
 }
+
+@media only screen and (max-width:375px){
+    .features{
+        display:flex;
+        flex-direction:column;
+        text-align: justify;
+    }
+    .sell, .swap, .buy{
+        margin-top: 5%;
+        width:95%;
+    }
+    .features-container{
+        margin-top:7%;
+        width:90%;
+        overflow: hidden;
+    }
+}

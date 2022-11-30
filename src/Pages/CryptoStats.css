@@ -36,3 +36,9 @@ span{
 .rows{
     padding: 1px;
 }
+
+@media only screen and (max-width:600px){
+    .stats-container{
+        display:none;
+    }
+}
