@@ -9,7 +9,7 @@ const Nav = [
     },
     {
         title:'Market Info',
-        id: 'home'
+        id: 'market'
     },
     {
         title:'Features',

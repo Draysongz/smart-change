@@ -21,6 +21,20 @@
 #acc-header {
     width: 100%;
 }
+@media only screen and (max-width: 375px){
+    .faq-container{
+        flex-direction: column;
+        height: 72vh;
+        padding:auto;
+    }
+   
+    .accordion{
+        width:100%;
+    }
+    .faq-logo{
+        width:200%
+    }
+}
 
 
 

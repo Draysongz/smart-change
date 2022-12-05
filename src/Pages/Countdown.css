@@ -40,3 +40,15 @@
     text-shadow: none;
     font-family: 'Poppins', sans-serif;
 }
+@media only screen and (max-width: 375px) {
+    .clock{
+        width:100%;
+       
+    }
+    .clock section p {
+        font-size: 2rem;
+    }
+    .clock section small{
+        font-size: .5rem;
+    }
+}

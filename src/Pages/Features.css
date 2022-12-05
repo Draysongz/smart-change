@@ -9,9 +9,9 @@
    padding: 5%;
 }
 .feature-title{
+    padding: 1.5rem;
     text-align: center;
-    font-weight: 400;
-    padding: 1%;
+    font-weight:700;
 }
 .sell, .swap, .buy{
     width: 29%;
@@ -43,7 +43,8 @@ font-size: xx-large;
 text-align: center;
 }
 
-@media only screen and (max-width:375px){
+@media only screen 
+   and (max-width : 375px) {
     .features{
         display:flex;
         flex-direction:column;
@@ -59,4 +60,27 @@ text-align: center;
         width:100%;
         overflow: hidden;
     }
+
 }
+
+
+@media only screen 
+   and (max-width : 600px) {
+    .features{
+        display:flex;
+        flex-direction:column;
+        text-align: justify;
+    }
+    .sell, .swap, .buy{
+        margin-top: 5%;
+        width:95%;
+        height: 40vh;
+    }
+    .features-container{
+        margin-top:7%;
+        width:100%;
+        overflow: hidden;
+    }
+
+}
+   

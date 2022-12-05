@@ -99,3 +99,37 @@
     font-size: large;
 }
 
+
+@media only screen and (max-width:375px){
+    .right{
+        display:none;
+    }
+    .mockup{
+        display:none;
+    }
+    .hero{
+        display:block;
+        text-align: justify;
+    }
+    .left{
+        width:95% !important;
+    }
+    .paragraph p{
+        font-size:30px;
+        line-height:38px;
+        background: #F2F7F9;
+        text-align: justify;
+    }
+ .holder{
+    width: 105% !important
+ }
+ #downloadBtn{
+    display: none;
+ }
+ .navlist{
+    flex-direction:column;
+ }
+ #market{
+    display:none;
+ }
+}

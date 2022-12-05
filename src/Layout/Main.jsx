@@ -8,6 +8,7 @@ import Features from '../Pages/Features'
 import Countdown from '../Pages/Countdown'
 import Faq from '../Pages/Faq'
 import Footer from '../Pages/Footer'
+import Waitlist from '../Pages/Waitlist'
 
 
 
@@ -20,7 +21,7 @@ const Main = () => {
   let interval;
 
   const startTimer = ()=>{
-    const countDownDate= new Date("November 4,2022").getTime();
+    const countDownDate= new Date("December 31,2022").getTime();
 
     interval= setInterval(()=>{
       const now= new Date().getTime();
@@ -69,9 +70,11 @@ const Main = () => {
   }
 
   return (
-    <div>
+    <div className='main-layout'>
       <Hero/>
+      <Waitlist/>
       <CryptoStats/>
+
       <Features/>
       <Countdown timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds}/>
       <Faq/>

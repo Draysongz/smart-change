@@ -5,8 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import logo from '../assets/logo.png'
 import mockup from '../assets/mockup.png'
-import Waitlist from '../Pages/Waitlist'
-
 
 const Hero = () => {
 
@@ -42,7 +40,7 @@ const Hero = () => {
                     </div>
                     <p className='description'> Buy and sell 200+ cryptocurrencies with 20+ flat currencies using <br /> bank transfers or your credit/debit card.</p>
                     {/* <Button id='downloadBtn' variant="outline-dark ">Get Started</Button> */}
-                    <Waitlist/>
+                   
                     </div>
             </div>
 
