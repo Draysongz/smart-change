@@ -122,7 +122,6 @@
     }
  .holder{
     width: 100% !important;
-    border: 2px solid red;
  }
  #downloadBtn{
     display: none;
