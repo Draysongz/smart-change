@@ -128,11 +128,16 @@
  }
  .navlist{
     flex-direction:column;
+    width: 42%;
  }
  #market{
     display:none;
  }
  .left-text{
-    margin-left: 0px;
+    margin-left: 4%;
+ }
+ .brand{
+    width:35%;
+    height: 50%;
  }
 }

@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <div className='holder' id='home'>
         <nav className="nav-container">
-            <img src={logo} alt='crypto smart' width='100'/>
+            <img className='brand' src={logo} alt='crypto smart' width='100'/>
             <ul className="navlist">
                 {Nav.map((nav, index)=>{
                     return(
