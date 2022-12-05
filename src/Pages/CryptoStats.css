@@ -8,6 +8,7 @@
     line-height: 47px;
 }
 body{
+    width: 95%;
     overflow-x: hidden;
 }
 .stats-container{

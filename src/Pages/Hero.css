@@ -112,7 +112,7 @@
         text-align: justify;
     }
     .left{
-        width:95% !important;
+        width:90% !important;
     }
     .paragraph p{
         font-size:30px;
@@ -121,7 +121,8 @@
         text-align: justify;
     }
  .holder{
-    width: 105% !important
+    width: 100% !important;
+    border: 2px solid red;
  }
  #downloadBtn{
     display: none;
@@ -131,5 +132,8 @@
  }
  #market{
     display:none;
+ }
+ .left-text{
+    margin-left: 0px;
  }
 }
