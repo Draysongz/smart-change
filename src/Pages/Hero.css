@@ -122,6 +122,8 @@
     }
  .holder{
     width: 100% !important;
+    height: 70vh !important;
+    overflow-y:hidden;
  }
  #downloadBtn{
     display: none;
@@ -129,6 +131,7 @@
  .navlist{
     flex-direction:column;
     width: 42%;
+    display:none;
  }
  #market{
     display:none;
@@ -137,7 +140,6 @@
     margin-left: 4%;
  }
  .brand{
-    width:35%;
-    height: 50%;
+   display:none;
  }
 }

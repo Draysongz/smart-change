@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import logo from '../assets/logo.png'
 import mockup from '../assets/mockup.png'
+import Navbar from '../components/Navbar.jsx'
 
 const Hero = () => {
 
@@ -17,6 +18,7 @@ const Hero = () => {
     <div className='holder' id='home'>
         <nav className="nav-container">
             <img className='brand' src={logo} alt='crypto smart' width='100'/>
+            <Navbar/>
             <ul className="navlist">
                 {Nav.map((nav, index)=>{
                     return(
