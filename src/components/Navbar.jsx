@@ -42,10 +42,9 @@ const Navbar = () => {
         <Button id='downloadBtn' variant="dark ">Download</Button>
        </ul>
             
-    </div>r
-    <nav className="nav-containe">
+    </div>
+    <nav className="nav-container">
             <img className='brand' src={logo} alt='crypto smart' width='100'/>
-            
             <ul className="navlist">
                 {Nav.map((nav, index)=>{
                     return(

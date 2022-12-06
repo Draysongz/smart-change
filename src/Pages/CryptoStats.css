@@ -13,12 +13,14 @@ body{
 }
 .stats-container{
     display: flex;
+    margin-top:10%;
+
 }
 .left{
     border-radius: 10px ;
     height: 70vh;
     width: 50vw;
-    padding: 2%;
+    padding: 1rem;
     /* border: 1px solid grey; */
 }
 .column-container{
