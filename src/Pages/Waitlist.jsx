@@ -20,7 +20,7 @@ const db = getFirestore(app)
     await addDoc(collection(db, "emails"), {
       email: email
     });
-    toast('Sucessfully Registered')
+    toast('Successfully Registered')
   } catch (error) {
     toast.error('An error occurred')
     console.log(error)
