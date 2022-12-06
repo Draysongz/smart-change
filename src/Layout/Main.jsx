@@ -9,6 +9,7 @@ import Countdown from '../Pages/Countdown'
 import Faq from '../Pages/Faq'
 import Footer from '../Pages/Footer'
 import Waitlist from '../Pages/Waitlist'
+import Navbar from '../components/Navbar.jsx'
 
 
 
@@ -71,10 +72,10 @@ const Main = () => {
 
   return (
     <div className='main-layout'>
+      <Navbar/>
       <Hero/>
       <Waitlist/>
       <CryptoStats/>
-
       <Features/>
       <Countdown timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds}/>
       <Faq/>

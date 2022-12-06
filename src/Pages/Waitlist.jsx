@@ -1,15 +1,21 @@
 import React from 'react'
 import './Waitlist.css'
-import {db} from '../firebase'
+import {firebaseConfig} from '../firebase'
 import { addDoc, collection } from 'firebase/firestore'
 import { toast } from 'react-toastify'
 import { useState } from 'react'
+import {initializeApp} from 'firebase/app'
+import {getAuth} from 'firebase/auth'
+import {getFirestore} from 'firebase/firestore'
 
 const Waitlist = () => {
 const [email, setEmail] = useState('')
 
 const onSubmit= async (e)=>{
   e.preventDefault()
+  const app= initializeApp(firebaseConfig)
+const auth = getAuth(app)
+const db = getFirestore(app)
   try {
     await addDoc(collection(db, "emails"), {
       email: email

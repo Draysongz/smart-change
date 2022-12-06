@@ -129,8 +129,6 @@
     display: none;
  }
  .navlist{
-    flex-direction:column;
-    width: 42%;
     display:none;
  }
  #market{

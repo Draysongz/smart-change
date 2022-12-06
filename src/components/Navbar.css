@@ -4,19 +4,24 @@
 }
 /* Navbar and burger menu */
 
-nav{
+.small-nav{
     display:none
 }
+.menu{
+    display:none;
+}
+
 
 @media only screen and (max-width: 375px){
 
-nav{
+.small-nav{
     width:105%;
     height:5em;
     /* background-color: rgb(37, 39, 53); */
     display:flex;
     justify-content:space-between;
-    padding:1em
+    padding:1em;
+    background-color: #F2F7F9;
 }
 .brandl{
     width:105%;
@@ -102,5 +107,8 @@ nav{
 .burger-bar.unclicked{
     transform: rotate(0) translate(0);
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+.nav-container{
+    display:none;
 }
 }
