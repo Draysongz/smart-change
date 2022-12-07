@@ -35,6 +35,20 @@
         width:200%
     }
 }
+@media only screen and (max-width: 768px){
+    .faq-container{
+        flex-direction: column;
+        height: 60vh;
+        padding:auto;
+    }
+   
+    .accordion{
+        width:100%;
+    }
+    .faq-logo{
+        width:200%
+    }
+}
 
 
 

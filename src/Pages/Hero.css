@@ -141,3 +141,46 @@
    display:none;
  }
 }
+
+@media only screen and (max-width:7688px){
+    .right{
+        display:none;
+    }
+    .mockup{
+        display:none;
+    }
+    .hero{
+        display:block;
+        text-align: justify;
+    }
+    .left{
+        width:90% !important;
+    }
+    .paragraph p{
+        font-size:30px;
+        line-height:38px;
+        background: #F2F7F9;
+        text-align: justify;
+    }
+ .holder{
+    width: 105% !important;
+    height: 60vh !important;
+    overflow-y:hidden;
+    margin-top:-2%;
+ }
+ #downloadBtn{
+    display: none;
+ }
+ .navlist{
+    display:none;
+ }
+ #market{
+    display:none;
+ }
+ .left-text{
+    margin-left: 4%;
+ }
+ .brand{
+   display:none;
+ }
+}
