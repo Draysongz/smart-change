@@ -50,6 +50,8 @@
 .holder{
     width: 100vw;
     overflow-x: hidden;
+    height:80vh;
+    overflow-y:hidden;
 }
 .nav-container {
     padding: 1.7rem;
@@ -142,11 +144,8 @@
  }
 }
 
-@media only screen and (max-width:7688px){
+@media only screen and (max-width:768px){
     .right{
-        display:none;
-    }
-    .mockup{
         display:none;
     }
     .hero{

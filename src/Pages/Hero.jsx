@@ -1,9 +1,6 @@
 import React from 'react'
-// import Nav from '../components/Navbar'
 import './Hero.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Button } from 'react-bootstrap';
-// import logo from '../assets/logo.png'
 import mockup from '../assets/mockup.png'
 
 
@@ -25,11 +22,8 @@ const Hero = () => {
                    
                     </div>
             </div>
-
             <div className="right">
-               
-                <img className='mockup' src={mockup} alt='mockup' width='900' />
-                
+                <img src={mockup} alt="mockup" className="mockup" />
             </div>
         </div>
     </div>
