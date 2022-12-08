@@ -1,5 +1,5 @@
 .navbar{
-     width:100%;
+     width:106%;
      height:100px;
      display:flex;
      justify-content: space-between;
@@ -24,6 +24,45 @@
     display:none;
 }
 
+.nav-menu li a{
+    text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  transition:0.5s;
+}
+
+.nav-menu li a:hover{
+    color: white;
+    transform:scale(2);
+  opacity:1;
+  filter:blur(0);
+  text-decoration:none;
+}
+
+.nav-menu li a::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:110%;
+    border-radius: 4px;
+    height:110%;
+    background:#F9A826;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  
+}
+.nav-menu li a:hover:before{
+    transition:transform 0.5s;
+  transform-origin:left;
+  transform:scaleX(1);
+}
 
 @media screen and (max-width:940px){
     .nav-menu{
