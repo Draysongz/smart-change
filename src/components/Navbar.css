@@ -67,7 +67,7 @@
 @media screen and (max-width:940px){
     .nav-menu{
         position: fixed;
-        top:100px;
+        top:25px;
         right:-100%;
         flex-direction: column;
         justify-content: center;
@@ -90,6 +90,7 @@
     .hamburger{
         display:flex;
         margin-right: 3% !important;
+        z-index:1;
 
     }
     .navbar{
