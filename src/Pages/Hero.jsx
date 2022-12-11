@@ -17,7 +17,7 @@ const Hero = () => {
                         <p>The World’s <br /> <span className="fast">Fastest Growing</span> <br /> Crypto App</p>
                        
                     </div>
-                    <p className='description'> Buy and sell 200+ cryptocurrencies with 20+ flat currencies using <br /> bank transfers or your credit/debit card.</p>
+                    <p className='description'> Buy and sell 200+ cryptocurrencies with 20+ fiat currencies using <br /> bank transfers or your credit/debit card.</p>
                     {/* <Button id='downloadBtn' variant="outline-dark ">Get Started</Button> */}
                    
                     </div>
