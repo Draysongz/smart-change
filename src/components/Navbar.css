@@ -11,10 +11,12 @@
 
 .navbar img{
     width:80px;
+    
 }
 
 .nav-menu{
     display:flex;
+    margin-right:10px;
 }
 .nav-item{
     padding:1rem;

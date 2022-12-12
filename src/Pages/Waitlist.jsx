@@ -7,11 +7,17 @@ import { useState } from 'react'
 import {initializeApp} from 'firebase/app'
 import {getAuth} from 'firebase/auth'
 import {getFirestore} from 'firebase/firestore'
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 const Waitlist = () => {
 const [email, setEmail] = useState('')
+const [show, setShow] = useState(false);
 
-const onSubmit= async (e)=>{
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+const onSubmit= async(e)=>{
   e.preventDefault()
   const app= initializeApp(firebaseConfig)
 const auth = getAuth(app)
@@ -20,6 +26,7 @@ const db = getFirestore(app)
     await addDoc(collection(db, "emails"), {
       email: email
     });
+    handleShow()
     toast('Successfully Registered')
   } catch (error) {
     toast.error('An error occurred')
@@ -37,6 +44,22 @@ const db = getFirestore(app)
           </div>
       
         </div>
+        <Modal   size="sm"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">Waitlisted!!!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+         <p>Registration Successful</p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleClose}>
+            Great
+          </Button>
+          
+        </Modal.Footer>
+      </Modal>
     </div>
   )
 } 
