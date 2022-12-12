@@ -2,7 +2,6 @@ import React from 'react'
 import './Waitlist.css'
 import {firebaseConfig} from '../firebase'
 import { addDoc, collection } from 'firebase/firestore'
-import { toast } from 'react-toastify'
 import { useState } from 'react'
 import {initializeApp} from 'firebase/app'
 import {getAuth} from 'firebase/auth'
@@ -27,7 +26,6 @@ const db = getFirestore(app)
       email: email
     });
     handleShow()
-    toast('Successfully Registered')
   } catch (error) {
     toast.error('An error occurred')
     console.log(error)
