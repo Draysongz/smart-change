@@ -27,7 +27,7 @@ const db = getFirestore(app)
     });
     handleShow()
   } catch (error) {
-    toast.error('An error occurred')
+
     console.log(error)
   }
 }
