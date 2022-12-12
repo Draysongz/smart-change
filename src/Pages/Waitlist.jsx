@@ -44,9 +44,11 @@ const db = getFirestore(app)
           </div>
       
         </div>
-        <Modal   size="sm"
+        <Modal   
       aria-labelledby="contained-modal-title-vcenter"
-      centered show={show} onHide={handleClose}>
+      centered 
+      show={show} 
+      onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">Waitlisted!!!</Modal.Title>
         </Modal.Header>
@@ -54,7 +56,7 @@ const db = getFirestore(app)
          <p>Registration Successful</p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="warning" id='modalbtn' onClick={handleClose}>
             Great
           </Button>
           

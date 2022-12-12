@@ -31,7 +31,9 @@
    
 }
 
-
+#modalbtn{
+    color:white;
+}
 
 @media only screen and (max-width:375px){
     .list-container h1{
