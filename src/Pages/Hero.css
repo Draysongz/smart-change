@@ -27,6 +27,7 @@
 }
 .left{
     width: 50%;
+    text-align:justify;
 }
 .right{
     width: 50%;
@@ -34,7 +35,8 @@
 }
 .left-text{
     margin-top: 5rem;
-    margin-left: 10%;
+    margin-left: 5%;
+    
 }
 .paragraph{
     font-family: 'Roboto', sans-serif;
